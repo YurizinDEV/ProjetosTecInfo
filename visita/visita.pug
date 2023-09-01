@@ -1,0 +1,32 @@
+- for (c = 0; c < 361; c++)
+.cam
+
+input(type="radio" name="photo" id="f1" checked)
+- for (i = 2; i < 10 ; i++)
+input(type="radio" name="photo" id="f"+i)
+
+input(type="radio" name="surface" id="canvas" checked)
+input(type="radio" name="surface" id="ratan")
+input(type="radio" name="surface" id="quilt")
+input(type="radio" name="surface" id="mesh")
+input(type="radio" name="surface" id="none")
+input(type="checkbox" id="view")
+
+.photos
+- for (l = 1; l < 10 ; l++)
+    label(for='f'+l)
+
+.options
+a(class="reload" href="https://codepen.io/josetxu/pen/RweVeBZ" target="_top")
+label(for='canvas')
+label(for='ratan')
+label(for='quilt')
+label(for='mesh')
+label(for='none')
+label(for='view')
+
+.content
+.zoom  
+    .art#art
+    - for (s = 0; s < 6; s++)
+        .side
