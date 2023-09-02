@@ -1865,7 +1865,7 @@ label[for=f2]:before {
 
 #f3:checked~.content,
 label[for=f3]:before {
-    --bg: url(https://source.unsplash.com/random/800x600/?jungle);
+    --bg: url(imgvisit/turma.png);
 }
 
 #f4:checked~.content,
