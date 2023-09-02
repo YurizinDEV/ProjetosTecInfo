@@ -1753,7 +1753,7 @@ label[for=view] {
 
 label:after,
 a.reload:after {
-    content: "";
+    content: "\2190";
     position: absolute;
     background: #1110;
     color: #3338;
@@ -1790,43 +1790,47 @@ a.reload:hover:after,
 }
 
 label:nth-child(1):after {
-    content: "MOUNTAIN";
+    content: "TURMA";
 }
 
 label:nth-child(2):after {
-    content: "OCEAN";
+    content: "ARVORES";
 }
 
 label:nth-child(3):after {
-    content: "JUNGLE";
+    content: "CÂMERA VINTAGE";
 }
 
 label:nth-child(4):after {
-    content: "GRASS";
+    content: "COELHO";
 }
 
 label:nth-child(5):after {
-    content: "TUNDRA";
+    content: "ELIZANDRO";
 }
 
 label:nth-child(6):after {
-    content: "DESERT";
+    content: "FORMIGAS";
 }
 
 label:nth-child(7):after {
-    content: "FOREST";
+    content: "GALINHAS";
 }
 
 label:nth-child(8):after {
-    content: "POND";
+    content: "TECAS";
 }
 
 label:nth-child(9):after {
-    content: "RIVER";
+    content: "TRATOR";
+}
+
+label:nth-child(10):after {
+    content: "IPÊ";
 }
 
 a.reload:after {
-    content: "RELOAD";
+    content: "RECOMECE";
 }
 
 label[for=canvas]:after {
@@ -1846,56 +1850,61 @@ label[for=mesh]:after {
 }
 
 label[for=none]:after {
-    content: "NONE";
+    content: "ORIGINAL";
 }
 
 label[for=view]:after {
-    content: "VIEW";
+    content: "VISUALIZAÇÃO";
 }
 
 #f1:checked~.content,
 label[for=f1]:before {
-    --bg: url(imgvisit/kadu.png);
+    --bg: url(imgvisit/turma.png);
 }
 
 #f2:checked~.content,
 label[for=f2]:before {
-    --bg: url(imgvisit/nabrasa.png);
+    --bg: url(imgvisit/arvores.jpeg);
 }
 
 #f3:checked~.content,
 label[for=f3]:before {
-    --bg: url(imgvisit/turma.png);
+    --bg: url(imgvisit/camera.jpeg);
 }
 
 #f4:checked~.content,
 label[for=f4]:before {
-    --bg: url(https://source.unsplash.com/random/800x600/?grass);
+    --bg: url(imgvisit/coelho.jpeg);
 }
 
 #f5:checked~.content,
 label[for=f5]:before {
-    --bg: url(https://source.unsplash.com/random/800x600/?tundra);
+    --bg: url(imgvisit/elizandro.jpeg);
 }
 
 #f6:checked~.content,
 label[for=f6]:before {
-    --bg: url(https://source.unsplash.com/random/800x600/?desert);
+    --bg: url(imgvisit/formigas.jpeg);
 }
 
 #f7:checked~.content,
 label[for=f7]:before {
-    --bg: url(https://source.unsplash.com/random/800x600/?forest);
+    --bg: url(imgvisit/galinha.jpeg);
 }
 
 #f8:checked~.content,
 label[for=f8]:before {
-    --bg: url(https://source.unsplash.com/random/800x600/?pond);
+    --bg: url(imgvisit/tecas.jpeg);
 }
 
 #f9:checked~.content,
 label[for=f9]:before {
-    --bg: url(https://source.unsplash.com/random/800x600/?river);
+    --bg: url(imgvisit/trator.jpeg);
+}
+
+#f10:checked~.content,
+label[for=f10]:before {
+    --bg: url(imgvisit/ype.jpeg);
 }
 
 #f1:checked~.photos label[for=f1] {
@@ -1939,6 +1948,11 @@ label[for=f9]:before {
 }
 
 #f9:checked~.photos label[for=f9] {
+    background: #444;
+    cursor: default;
+}
+
+#f10:checked~.photos label[for=f10] {
     background: #444;
     cursor: default;
 }
