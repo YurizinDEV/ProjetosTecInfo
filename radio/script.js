@@ -15,67 +15,67 @@ const totalTime = document.getElementById('total-time');
 
 const voodoo = {
   songName: 'Voodoo',
-  artist: 'Duzz',
+  artist: 'UCLÃ (feat. Sos, Sueth, Sobs & Duzz)',
   file: 'voodoo',
   liked: false,
 };
 const mega = {
-  songName: 'Boom Bap Flick',
-  artist: 'Quinc',
+  songName: 'MEGA AUTOMOTIVO SOLITUDE',
+  artist: 'DJ DUCK & MC MORENA',
   file: 'mega',
   liked: true,
 };
 const ella = {
-  songName: "Can't Hide",
-  artist: 'Otis Mcdonald',
+  songName: "Ella Baila Sola",
+  artist: 'Eslabon Armado & Peso Pluma',
   file: 'ella',
   liked: false,
 };
 const money = {
-  songName: 'As You Were',
-  artist: 'TrackTribe',
+  songName: 'Money Trees',
+  artist: 'Kendrick Lamar & Jay Rock',
   file: 'money',
   liked: false,
 };
 const idea = {
-  songName: 'Boom Bap Flick',
-  artist: 'Quincas Moreira',
+  songName: 'No Idea',
+  artist: 'Don Toliver',
   file: 'idea',
   liked: true,
 };
 const solitude = {
-  songName: "Can't Hide",
-  artist: 'Otis Mcdonald',
+  songName: "Solitude",
+  artist: 'M83 (feat. Felsmann & Tiley)',
   file: 'solitude',
   liked: false,
 };
 const falling = {
-  songName: 'As You Were',
-  artist: 'TrackTribe',
+  songName: 'Falling',
+  artist: 'Trevor Daniel',
   file: 'falling',
   liked: false,
 };
 const ladygaga = {
-  songName: 'Boom Bap Flick',
-  artist: 'Quincas Moreira',
+  songName: 'LADY GAGA',
+  artist: 'Peso Pluma (feat. Gabito Ballesteros & Junior H)',
   file: 'ladygaga',
   liked: true,
 };
 const yunk = {
-  songName: "Can't Hide",
-  artist: 'Otis Mcdonald',
+  songName: "Só uando ela me quer",
+  artist: 'Yunk Vino (feat. Duzz & Jaya Luuck)',
   file: 'yunk',
   liked: false,
 };
 const young = {
-  songName: "Can't Hide",
-  artist: 'Otis Mcdonald',
+  songName: "Young, Wild and Free",
+  artist: 'Snoop Dogg & Wiz Khalifa (feat. Bruno Mars)',
   file: 'young',
   liked: false,
 };
 const box = {
-  songName: "Can't Hide",
-  artist: 'Otis Mcdonald',
+  songName: "The Box [Official Lofi Remix]",
+  artist: 'Roddy Ricch',
   file: 'box',
   liked: false,
 };

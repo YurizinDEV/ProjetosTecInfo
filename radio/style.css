@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
+  background-image: linear-gradient(rgb(161, 15, 15), rgb(0, 3, 4));
   height: 100vh;
   color: white;
   font-family: sans-serif;
@@ -91,4 +91,9 @@ button {
   justify-content: space-between;
   font-size: smaller;
   margin-top: 0.5em;
+}
+
+h5{
+  font-family: 'Courier New', monospace;
+  margin: 0;
 }
