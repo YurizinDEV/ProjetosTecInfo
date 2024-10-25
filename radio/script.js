@@ -62,7 +62,7 @@ const ladygaga = {
   liked: true,
 };
 const yunk = {
-  songName: "Só uando ela me quer",
+  songName: "Só quando ela me quer",
   artist: 'Yunk Vino (feat. Duzz & Jaya Luuck)',
   file: 'yunk',
   liked: false,
