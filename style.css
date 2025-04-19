@@ -1,66 +1,78 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+* {  
+    box-sizing: border-box; /* Garante que o padding e margin sejam incluídos no cálculo de largura e altura */  
+    margin: 0;             /* Remove margens padrão */  
+    padding: 0;            /* Remove padding padrão */  
+}  
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-}
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f4f4f4;  
+    display: flex;  
+    flex-direction: column;   /* Organiza elementos na coluna */  
+    align-items: center;      /* Centraliza horizontalmente */  
+    min-height: 100vh;       /* Garante que o corpo tenha altura mínima de 100vh */  
+}  
 
-header {
-    background: #3c8dbc;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-}
+header {  
+    background: #3c8dbc;  
+    color: #fff;  
+    text-align: center;  
+    padding: 20px;  
+    width: 100%;             /* Mantém o header com 100% da largura */  
+}  
 
-h1 {
-    margin: 0;
-}
+h1 {  
+    margin: 0;  
+}  
 
-nav {
-    margin: 20px 0;
-}
+nav {  
+    margin: 20px 0;         /* Margem acima e abaixo */  
+}  
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+.project-list {  
+    list-style-type: none;   /* Remove marcadores da lista */  
+    display: flex;           /* Usar flexbox para layout */  
+    flex-wrap: wrap;        /* Permite quebrar linhas */  
+    justify-content: center; /* Centraliza os itens na linha */  
+    padding: 0;  
+}  
 
-nav ul li {
-    margin: 10px 0;
-}
+.project-list li {  
+    margin: 20px;           /* Espaçamento entre os projetos */  
+    text-align: center;      /* Centraliza texto e imagens dos links */  
+    width: 200px;           /* Largura fixa para cada projeto */  
+}  
 
-nav ul li a {
-    text-decoration: none;
-    color: #3c8dbc;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: 1px solid #3c8dbc;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
+.project-image {  
+    width: 100%;            /* Largura da imagem ocupa 100% do seu contêiner */  
+    height: 150px;          /* Altura fixa para padronização */  
+    object-fit: cover;      /* Corta as imagens para caber na dimensão */  
+    border-radius: 10px;     /* Bordas arredondadas */  
+    margin-top: 10px;      /* Espaço acima da imagem */  
+}  
 
-nav ul li a:hover {
-    background: #007BFF;
-    color: #fff;
-}
+.project-list li a {  
+    display: block;          /* Faz o link ocupar toda a área do LI */  
+    text-decoration: none;  
+    color: #3c8dbc;  
+    font-weight: bold;  
+    padding: 10px;          /* Adiciona espaço ao redor do texto do link */  
+    border: 1px solid #3c8dbc; /* Adiciona uma borda */  
+    border-radius: 5px;      /* Arredonda os cantos da borda */  
+    transition: background 0.3s; /* Suaviza a transição de fundo */  
+    width: 100%;              /* Largura máxima do botão */  
+}  
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #3c8dbc;
-    color: #fff;
-    width: 100%;
-    margin-top: auto;
-}
+.project-list li a:hover {  
+    background: #007BFF;     /* Muda a cor de fundo ao passar o mouse */  
+    color: #fff;              /* Muda a cor do texto ao passar o mouse */  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 10px;  
+    background: #3c8dbc;  
+    color: #fff;  
+    width: 100%;              /* Mantém o footer com 100% da largura */  
+    margin-top: auto;         /* Move o footer para o final da página */  
+}  
