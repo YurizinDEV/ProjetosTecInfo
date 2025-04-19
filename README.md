@@ -17,7 +17,7 @@ Este repositório contém uma coleção de projetos desenvolvidos durante o curs
 2. Na página inicial, selecione o projeto que deseja visualizar clicando no respectivo link.
 
 ### Opção 2: Acessando pelo GitHub Pages
-1. Acesse o link [https://yurizindev.github.io/ProjetosTecInfo/](https://yurizindev.github.io/ProjetosTecInfo/).
+1. Acesse o link <a href="https://yurizindev.github.io/ProjetosTecInfo/" target="_blank">https://yurizindev.github.io/ProjetosTecInfo/</a>.  
 2. Na página inicial, selecione o projeto que deseja visualizar clicando no respectivo link.
 
 ---
